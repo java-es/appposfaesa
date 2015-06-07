@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#DCDCDC"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lblCabecalho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/lbl_cabecalho"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:text="@string/lbl_login"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/txtLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="@string/hint_login_email"
+            android:inputType="textEmailAddress"
+            android:textColor="#000000"
+            android:textSize="20dp">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/txtSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:ems="10"
+            android:hint="@string/hint_login_senha"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:background="#006400"
+            android:onClick="entrar_onClick"
+            android:text="@string/btn_login_entrar"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

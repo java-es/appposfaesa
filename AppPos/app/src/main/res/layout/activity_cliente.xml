@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDCDC"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_nome" />
+
+        <EditText
+            android:id="@+id/TxtNomeCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_nome"
+            android:maxLength="100"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textStyle="bold"></EditText>
+
+
+        <RadioGroup
+            android:id="@+id/radioCnpj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rdCPF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:onClick="cpf_onclick"
+                android:text="@string/rd_cpf" />
+
+            <RadioButton
+                android:id="@+id/rdCNPJ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="cnpj_onclick"
+                android:text="@string/rd_cnpj" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/lblCpfCnpjCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_cpf" />
+
+        <EditText
+            android:id="@+id/txtCpfCnpjCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_cpf"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textStyle="bold"></EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_email" />
+
+        <EditText
+            android:id="@+id/txtEmailCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_email"
+            android:maxLength="100"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textStyle="bold"></EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_telefone" />
+
+        <EditText
+            android:id="@+id/txtTelefoneCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_telefone"
+            android:maxLength="20"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textStyle="bold"></EditText>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#006400"
+            android:onClick="salvar_onClick"
+            android:text="@string/btn_salvar"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Aplicativo Pós Faesa</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_funcionario">Cadastro Funcionario</string>
+    <string name="lbl_nome">Nome</string>
+    <string name="hint_nome">Informe o Nome...</string>
+    <string name="lbl_cpf">CPF</string>
+    <string name="hint_cpf">Informe o CPF...</string>
+    <string name="lbl_email">E-mail</string>
+    <string name="hint_email">Informe o E-mail...</string>
+    <string name="lbl_telefone">Telefone</string>
+    <string name="hint_telefone">Informe o Telefone...</string>
+    <string name="btn_salvar">Salvar</string>
+    <string name="title_activity_cliente">ClienteActivity</string>
+    <string name="lbl_cep">Cep</string>
+    <string name="hint_cep">Informe o Cep...</string>
+    <string name="lbl_endereco">Endereço</string>
+    <string name="hint_endereco">Informe o Endereço...</string>
+    <string name="lbl_numero">Número</string>
+    <string name="hint_numero">Informe o Número...</string>
+    <string name="lbl_bairro">Bairro</string>
+    <string name="hint_bairro">Informe o Bairro...</string>
+    <string name="lbl_cidade">Cidade</string>
+    <string name="hint_cidade">Informe a Cidade...</string>
+    <string name="lbl_uf">UF</string>
+    <string name="hint_uf">Informe o Estado...</string>
+    <string name="rd_cpf">CPF</string>
+    <string name="rd_cnpj">CNPJ</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="lbl_cabecalho">log in</string>
+    <string name="lbl_login">Pós Faesa</string>
+    <string name="hint_login_email">Informe o E-mail</string>
+    <string name="hint_login_senha">Informe a Senha</string>
+    <string name="btn_login_entrar">Entrar</string>
+    <string name="title_activity_lista_funcionario">ListaFuncionarioActivity</string>
+    <string name="title_activity_lista_cliente">ListaClienteActivity</string>
+    <string name="URL_USUARIO_AUTENTICACAO">http://177.67.82.216:8080/servicepos/resources/usuario/json/autenticacao</string>
+    <string name="URL_ADD_CLIENTE">http://177.67.82.216:8080/servicepos/resources/cliente/json/addCliente</string>
+    <string name="URL_LISTA_CLIENTE">http://177.67.82.216:8080/servicepos/resources/cliente/json/buscaTodos</string>
+    <string name="URL_ADD_FUNCIONARIO">http://177.67.82.216:8080/servicepos/resources/funcionario/json/addFuncionario</string>
+    <string name="URL_LISTA_FUNCIONARIO">http://177.67.82.216:8080/servicepos/resources/funcionario/json/buscaTodos</string>
+</resources>
