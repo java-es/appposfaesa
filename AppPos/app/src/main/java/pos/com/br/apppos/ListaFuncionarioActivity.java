@@ -86,25 +86,8 @@ public class ListaFuncionarioActivity extends Activity {
                 StringBuilder str = new StringBuilder();
 
                 str.append("{");
-                str.append("\"email\":").append("null").append(",");
-                str.append("\"cpf\":").append("null").append(",");
-                str.append("\"endereco\": {");
-                str.append("\"bairro\":").append("null").append(",");
-                str.append("\"cep\":").append("null").append(",");
-                str.append("\"cidade\":").append("null").append(",");
-                str.append("\"endereco\":").append("null").append(",");
-                str.append("\"estado\":").append("null").append(",");
-                str.append("\"numero\":").append("null");
-                str.append("},");
-                str.append("\"idFuncionario\": null,");
-                str.append("\"nome\":").append("null").append(",");
-                str.append("\"telefone\":").append("null").append(",");
-                str.append("\"usuario\": {");
-                str.append("\"autenticado\": 0,");
                 str.append("\"idUsuario\":").append(usuario.getIdUsuario()).append(",");
-                str.append("\"login\":").append("\"").append(usuario.getLogin()).append("\",");
-                str.append("\"senha\": null");
-                str.append("}");
+                str.append("\"login\":").append("\"").append(usuario.getLogin()).append("\"");
                 str.append("}");
 
                 String targetURL = getString(R.string.URL_LISTA_FUNCIONARIO);//"http://192.168.1.140:8080/servicepos/resources/funcionario/json/buscaTodos";
